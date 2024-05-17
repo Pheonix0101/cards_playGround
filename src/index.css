@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: fantasy;
+}
+
+::selection{
+  color: rgb(54, 180, 167);
+}
