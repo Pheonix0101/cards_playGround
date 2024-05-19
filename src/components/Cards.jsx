@@ -9,8 +9,8 @@ function Cards({ data, reference }) {
       <motion.div
         drag
         dragConstraints={reference}
-        dragTransition={{ bounceStiffness: 100, bounceDamping: 20 }}
-        whileHover={{ scale: 1.2 }}
+        dragTransition={{ bounceStiffness: 200, bounceDamping: 20 }}
+        // whileHover={{ scale: 1.2 }}
         onHoverStart={(e) => {}}
         onHoverEnd={(e) => {}}
         className="relative flex-shrink-0 w-60 h-72 rounded-[40px] bg-zinc-900/80 text-white px-5 py-10 overflow-hidden cursor-pointer"
